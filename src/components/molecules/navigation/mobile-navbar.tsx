@@ -1,5 +1,5 @@
-import { NavLink } from "@/components/atoms/nav-link"
-import { navItems } from "@/lib/data"
+import { NavLink } from "@/components/atoms/nav-link";
+import { navItems } from "@/lib/data";
 
 export const MobileNavBar = () => {
   return (
@@ -8,5 +8,5 @@ export const MobileNavBar = () => {
         <NavLink href={item.href} label={item.label} key={index} />
       ))}
     </nav>
-  )
-}
+  );
+};

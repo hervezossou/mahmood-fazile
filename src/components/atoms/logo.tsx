@@ -5,5 +5,5 @@ export const Logo = () => {
         LOGO
       </h1>
     </div>
-  )
-}
+  );
+};
