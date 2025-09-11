@@ -4,10 +4,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* K2D Font */
-@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 /* Tailwindcss */
 @import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: oklch(0.1822 0 0);
+}
 
 .gradint {
   background: linear-gradient(90deg,
@@ -20,16 +30,10 @@
 }
 
 .linear-gradient {
-  background: linear-gradient(90deg, #FA6E00 0%, #E60026 100%);
+  background: linear-gradient(90deg, #fa6e00 0%, #e60026 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* Display Font */
@@ -44,39 +48,39 @@
 
 @theme {
   --color-fondation-orange-light: oklch(0.9662 0.0211 60.75);
-  --color-fondation-orange-light-hover: oklch(0.9475 0.0322 58.40);
-  --color-fondation-orange-light-active: oklch(0.8932 0.0670 59.47);
+  --color-fondation-orange-light-hover: oklch(0.9475 0.0322 58.4);
+  --color-fondation-orange-light-active: oklch(0.8932 0.067 59.47);
   --color-fondation-orange-normal: oklch(0.7046 0.1956 46.78);
   --color-fondation-orange-normal-hover: oklch(0.6523 0.1803 47.06);
   --color-fondation-orange-normal-active: oklch(0.5974 0.1637 47.62);
   --color-fondation-orange-dark: oklch(0.5703 0.1566 47.49);
   --color-fondation-orange-dark-hover: oklch(0.5228 0.1435 47.48);
-  --color-fondation-orange-dark-active: oklch(0.3980 0.1053 49.96);
+  --color-fondation-orange-dark-active: oklch(0.398 0.1053 49.96);
 
-  --color-fondation-black-light: oklch(0.9249 0.0000 89.88);
-  --color-fondation-black-light-hover: oklch(0.8853 0.0000 89.88);
-  --color-fondation-black-light-active: oklch(0.7572 0.0000 89.88);
-  --color-fondation-black-normal: oklch(0.0000 0.0000 0.00);
+  --color-fondation-black-light: oklch(0.9249 0 89.88);
+  --color-fondation-black-light-hover: oklch(0.8853 0 89.88);
+  --color-fondation-black-light-active: oklch(0.7572 0 89.88);
+  --color-fondation-black-normal: oklch(0 0 0);
 
-  --color-fondation-white-light: oklch(0.9970 0.0000 89.88);
-  --color-fondation-white-light-hover: oklch(0.9702 0.0000 89.88);
-  --color-fondation-white-light-active: oklch(0.9940 0.0000 89.88);
-  --color-fondation-white-normal: oklch(0.9791 0.0000 89.88);
-  --color-fondation-white-normal-hover: oklch(0.9037 0.0000 89.88);
-  --color-fondation-white-normal-active: oklch(0.8266 0.0000 89.88);
-  --color-fondation-white-dark: oklch(0.7889 0.0000 89.88);
-  --color-fondation-white-dark-hover: oklch(0.6698 0.0000 89.88);
-  --color-fondation-white-dark-active: oklch(0.5452 0.0000 89.88);
-  --color-fondation-white-darker: oklch(0.4568 0.0000 89.88);
+  --color-fondation-white-light: oklch(0.997 0 89.88);
+  --color-fondation-white-light-hover: oklch(0.9702 0 89.88);
+  --color-fondation-white-light-active: oklch(0.994 0 89.88);
+  --color-fondation-white-normal: oklch(0.9791 0 89.88);
+  --color-fondation-white-normal-hover: oklch(0.9037 0 89.88);
+  --color-fondation-white-normal-active: oklch(0.8266 0 89.88);
+  --color-fondation-white-dark: oklch(0.7889 0 89.88);
+  --color-fondation-white-dark-hover: oklch(0.6698 0 89.88);
+  --color-fondation-white-dark-active: oklch(0.5452 0 89.88);
+  --color-fondation-white-darker: oklch(0.4568 0 89.88);
 
-  --color-fondation-grey-light: oklch(0.9340 0.0000 89.88);
-  --color-fondation-grey-light-hover: oklch(0.8975 0.0000 89.88);
-  --color-fondation-grey-light-active: oklch(0.7858 0.0000 89.88);
-  --color-fondation-grey-normal: oklch(0.2350 0.0000 89.88);
-  --color-fondation-grey-normal-hover: oklch(0.2221 0.0000 89.88);
-  --color-fondation-grey-normal-active: oklch(0.2090 0.0000 89.88);
-  --color-fondation-grey-dark: oklch(0.2046 0.0000 89.88);
-  --color-fondation-grey-dark-hover: oklch(0.1822 0.0000 89.88);
-  --color-fondation-grey-dark-active: oklch(0.1591 0.0000 89.88);
-  --color-fondation-grey-darker: oklch(0.1496 0.0000 89.88);
+  --color-fondation-grey-light: oklch(0.934 0 89.88);
+  --color-fondation-grey-light-hover: oklch(0.8975 0 89.88);
+  --color-fondation-grey-light-active: oklch(0.7858 0 89.88);
+  --color-fondation-grey-normal: oklch(0.235 0 89.88);
+  --color-fondation-grey-normal-hover: oklch(0.2221 0 89.88);
+  --color-fondation-grey-normal-active: oklch(0.209 0 89.88);
+  --color-fondation-grey-dark: oklch(0.2046 0 89.88);
+  --color-fondation-grey-dark-hover: oklch(0.1822 0 89.88);
+  --color-fondation-grey-dark-active: oklch(0.1591 0 89.88);
+  --color-fondation-grey-darker: oklch(0.1496 0 89.88);
 }
