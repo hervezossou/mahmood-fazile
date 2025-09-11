@@ -13,7 +13,7 @@ export const Button = ({ label, variant, onClick }: ButtonProps) => {
 
     const variantStyle = {
         contained: "bg-gradint text-white",
-        outlined: "bg-none border-2 border-fondation-white-dark-hover text-fondation-white-dark-hover"
+        outlined: "bg-none border-2 border-fondation-white-dark-hover text-fondation-white-dark-hover hover:bg-fondation-white-normal-hover hover:text-fondation-black-normal"
     }
 
     return (
