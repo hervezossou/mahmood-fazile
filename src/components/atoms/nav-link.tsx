@@ -23,8 +23,8 @@ export const NavLink = ({ label, href }: NavLinkProps) => {
             className={clsx(
                 baseStyle,
                 isActive
-                    ? "text-fondation-orange-normal underline"
-                    : "text-fondation-white-dark-hover hover:text-fondation-orange-normal"
+                    ? "text-fondation-orange-normal"
+                    : "text-fondation-white-dark-hover hover:text-fondation-orange-normal-hover"
             )}
             aria-current={isActive ? "true" : "false"}
         >
