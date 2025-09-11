@@ -19,6 +19,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.linear-gradient {
+  background: linear-gradient(90deg, #FA6E00 0%, #E60026 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
