@@ -34,26 +34,26 @@ export const skills = [
   {
     icon: "basil:figma-outline",
     name: "Figma",
-    percentage: "100%",
+    percentage: 100,
   },
   {
     icon: "iconoir:adobe-xd",
     name: "Adobe XD",
-    percentage: "100%",
+    percentage: 100,
   },
   {
     icon: "iconoir:adobe-photoshop",
     name: "Adobe Photoshop",
-    percentage: "85%",
+    percentage: 85,
   },
   {
     icon: "iconoir:adobe-illustrator",
     name: "Adobe Illustrator",
-    percentage: "60%",
+    percentage: 60,
   },
   {
     icon: "basil:adobe-premiere-outline",
     name: "Adobe Premiere",
-    percentage: "70%",
+    percentage: 70,
   },
 ];
