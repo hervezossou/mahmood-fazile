@@ -57,3 +57,46 @@ export const skills = [
     percentage: 70,
   },
 ];
+
+export const services = [
+  {
+    id: "app-design",
+    name: "App Design",
+    icon: "mdi:cellphone",
+    description:
+      "Designing modern, intuitive, and optimized mobile applications.",
+  },
+  {
+    id: "brand-design",
+    name: "Brand Design",
+    icon: "mdi:palette-swatch",
+    description: "Creating unique visual identities to strengthen your brand.",
+  },
+  {
+    id: "web-design",
+    name: "Web Design",
+    icon: "mdi:web",
+    description:
+      "Development of responsive, attractive, and high-performance websites.",
+  },
+  {
+    id: "ui-ux-design",
+    name: "UI/UX Design",
+    icon: "mdi:design",
+    description:
+      "Designing fluid user interfaces with an optimized experience.",
+  },
+  {
+    id: "prototyping",
+    name: "Prototyping",
+    icon: "mdi:shape",
+    description:
+      "Creation of interactive prototypes to test and validate your ideas.",
+  },
+  {
+    id: "design-systems",
+    name: "Design Systems",
+    icon: "mdi:view-grid",
+    description: "Creating consistent design systems for scalable interfaces.",
+  },
+];
