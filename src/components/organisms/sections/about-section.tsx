@@ -40,7 +40,7 @@ export const AboutSection = () => {
                         mysteries hidden within the tangled webs of code. designs.In this
                         digital atelier.
                     </p>
-                    <Button label="Download CV" variant="contained" />
+                    <Button label="Download CV" icon="solar:download-linear" variant="contained" />
                 </div>
             </div>
             <div className="w-full flex flex-wrap items-center justify-center gap-10 lg:justify-between lg:gap-auto">
