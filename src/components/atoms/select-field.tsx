@@ -35,7 +35,11 @@ export const SelectField = ({
           Service of interest
         </option>
         {options.map((option) => (
-          <option key={option.value} value={option.value}>
+          <option
+            key={option.value}
+            value={option.value}
+            className="flex justify-start gap-5 hover:bg-fondation-orange-normal hover:text-fondation-white-normal p-2.5 transition-all duration-300"
+          >
             {option.label}
           </option>
         ))}

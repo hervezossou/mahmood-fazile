@@ -9,43 +9,6 @@
 /* Tailwindcss */
 @import "tailwindcss";
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: oklch(0.1822 0 0);
-  font-family: "Lato", sans-serif;
-}
-
-.text-gradint {
-  background: linear-gradient(
-    90deg,
-    #984300 0.34%,
-    #fd6f00 42.06%,
-    #ca5900 90.34%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.bg-gradint {
-  background: linear-gradient(94deg, #fd6f00 3.1%, #e46400 94.54%);
-}
-
-.linear-gradient {
-  background: linear-gradient(90deg, #fa6e00 0%, #e60026 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Logo Font */
-.font-logo {
-  font-family: "K2D", sans-serif;
-}
-
 @theme {
   --color-fondation-orange-light: oklch(0.9662 0.0211 60.75);
   --color-fondation-orange-light-hover: oklch(0.9475 0.0322 58.4);
@@ -83,4 +46,54 @@ body {
   --color-fondation-grey-dark-hover: oklch(0.1822 0 89.88);
   --color-fondation-grey-dark-active: oklch(0.1591 0 89.88);
   --color-fondation-grey-darker: oklch(0.1496 0 89.88);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: oklch(0.1822 0 0);
+  font-family: "Lato", sans-serif;
+}
+
+.text-gradint {
+  background: linear-gradient(90deg,
+      #984300 0.34%,
+      #fd6f00 42.06%,
+      #ca5900 90.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradint {
+  background: linear-gradient(94deg, #fd6f00 3.1%, #e46400 94.54%);
+}
+
+.linear-gradient {
+  background: linear-gradient(90deg, #fa6e00 0%, #e60026 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Logo Font */
+.font-logo {
+  font-family: "K2D", sans-serif;
+}
+
+/* Styling select element */
+select,
+::picker(select) {
+  appearance: base-select;
+}
+
+select::picker-icon {
+  color: var(--color-fondation-white-darker);
+  transition: 0.4s rotate;
+}
+
+select:open::picker-icon {
+  rotate: 180deg;
 }
