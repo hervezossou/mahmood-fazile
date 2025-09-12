@@ -39,7 +39,7 @@ export const ContactForm = () => {
             <div className="w-full flex flex-col items-start justify-between gap-4 lg:flex-row">
                 <InputField
                     label="Phone Number"
-                    type="text"
+                    type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     name="phone-number"
