@@ -100,3 +100,18 @@ export const services = [
     description: "Creating consistent design systems for scalable interfaces.",
   },
 ];
+
+export const expertise = [
+  {
+    value: "5+",
+    label: "Experiences",
+  },
+  {
+    value: "20+",
+    label: "Projects done",
+  },
+  {
+    value: "80+",
+    label: "Happy Clients",
+  },
+];
