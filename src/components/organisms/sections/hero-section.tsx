@@ -51,7 +51,7 @@ export const HeroSection = () => {
                 backgroundPosition="-0.268px 0px"
                 backgroundSize="100.103% 100%"
                 borderRadius="100%"
-                className="w-80 h-[472.6px] shrink-0 md:size-[382.99px] lg:size-[618px]"
+                className="size-80 shrink-0 md:size-[382.99px] lg:size-[618px]"
             />
         </section>
     )
