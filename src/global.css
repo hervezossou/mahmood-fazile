@@ -58,12 +58,10 @@ body {
 }
 
 .text-gradint {
-  background: linear-gradient(
-    90deg,
-    #984300 0.34%,
-    #fd6f00 42.06%,
-    #ca5900 90.34%
-  );
+  background: linear-gradient(90deg,
+      #984300 0.34%,
+      #fd6f00 42.06%,
+      #ca5900 90.34%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -98,4 +96,12 @@ select::picker-icon {
 
 select:open::picker-icon {
   rotate: 180deg;
+}
+
+.bg-about-mobile {
+  background-position: -0.204px -24.363px;
+}
+
+.bg-about-desktop {
+  background-position: -0.292px -42px;
 }
