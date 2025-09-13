@@ -21,7 +21,7 @@ export const AboutSection = () => {
                     imageUrl={manInBlack}
                     borderRadius="261.5px 261.5px 12px 12px"
                     className="w-80 h-[472.6px] shrink-0 lg:w-[523px] lg:h-[676px]"
-                    imageClassName="w-[395.7px] h-[564.88px] lg:w-[566px] lg:h-[808px]"
+                    imageClassName="w-[395.7px] h-[564.88px] lg:w-[566px] lg:h-[808px] bg-about-mobile md:bg-about-desktop"
                 />
                 <div className="flex flex-col items-center gap-6 xl:items-start lg:gap-10">
                     <p className="font-medium text-fondation-white-dark-hover text-justify text-base lg:text-xl lg:leading-[190%] max-h-[494px]">
