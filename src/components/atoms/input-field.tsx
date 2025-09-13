@@ -35,7 +35,7 @@ export const InputField = ({
         value={value}
         onChange={onChange}
         placeholder={placeholder}
-        className="h-[54px] w-full lg:w-[491px] bg-white/5 rounded-lg px-6 py-3.5 text-fondation-white-dark-hover placeholder:text-fondation-white-dark-hover focus:outline-2 focus:outline-fondation-orange-normal"
+        className="h-[54px] w-full xl:w-[491px] bg-white/5 rounded-lg px-6 py-3.5 text-fondation-white-dark-hover placeholder:text-fondation-white-dark-hover focus:outline-2 focus:outline-fondation-orange-normal"
         aria-required="true"
       />
     </div>

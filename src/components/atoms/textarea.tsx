@@ -29,7 +29,7 @@ export const Textarea = ({
         value={value}
         onChange={onChange}
         placeholder={placeholder}
-        className="w-full lg:w-[491px] bg-white/5 rounded-lg px-6 py-3.5 text-fondation-white-dark-hover placeholder:text-fondation-white-dark-hover focus:outline-2 focus:outline-fondation-orange-normal"
+        className="w-full xl:w-[491px] bg-white/5 rounded-lg px-6 py-3.5 text-fondation-white-dark-hover placeholder:text-fondation-white-dark-hover focus:outline-2 focus:outline-fondation-orange-normal"
         rows={5}
         aria-required="true"
       />
