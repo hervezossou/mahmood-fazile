@@ -12,7 +12,7 @@ interface ImageFrameProps {
 const ImageFrame = ({
   imageUrl,
   borderRadius,
-  backgroundPosition = "-0.292px -42px",
+  backgroundPosition = "",
   backgroundSize = "100.103% 105.198%",
   className,
   imageClassName,
