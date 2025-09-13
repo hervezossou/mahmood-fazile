@@ -18,7 +18,7 @@ export const ContactForm = () => {
       name="contact"
       className="w-full max-w-[1012px] flex flex-col items-center justify-between gap-4 lg:gap-7.5 py-10"
     >
-      <div className="w-full flex flex-col items-start justify-between gap-4 lg:flex-row">
+      <div className="w-full flex flex-col items-start justify-between gap-4 xl:flex-row">
         <InputField
           label="Name"
           type="text"
@@ -36,7 +36,7 @@ export const ContactForm = () => {
           placeholder="nestorjuntao@gmail.com"
         />
       </div>
-      <div className="w-full flex flex-col items-start justify-between gap-4 lg:flex-row">
+      <div className="w-full flex flex-col items-start justify-between gap-4 xl:flex-row">
         <InputField
           label="Phone Number"
           type="tel"
@@ -53,7 +53,7 @@ export const ContactForm = () => {
           options={serviceOptions}
         />
       </div>
-      <div className="w-full flex flex-col items-start justify-between gap-4 lg:flex-row">
+      <div className="w-full flex flex-col items-start justify-between gap-4 xl:flex-row">
         <InputField
           label="Timeline"
           type="text"
@@ -70,7 +70,7 @@ export const ContactForm = () => {
           placeholder="Project details..."
         />
       </div>
-      <div className="flex flex-col items-center self-stretch lg:items-end lg:justify-center">
+      <div className="w-full flex flex-col items-center self-stretch lg:items-end lg:justify-center">
         <Button label="Send" variant="outlined" />
       </div>
     </form>
