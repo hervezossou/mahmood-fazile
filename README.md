@@ -32,7 +32,7 @@ The project was developed using:
 
 ## 🤝 Let’s Connect
 
-Need a portfolio to showcase **your skills** and your work speak for you ?  
+Need a portfolio to showcase **your skills** and let your work speak for you ?  
 I’d love to help you design and build it.
 
 - 📧 Email: [contacthervenz@gmail.com](mailto:contacthervenz@gmail.com)
