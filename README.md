@@ -4,7 +4,7 @@
 
 This is a portolio website introducing Mahmood Fazile, an UI/UX Design, his services and featured projects.
 
-![preview](https://github.com/hervezossou/mahmood-fazile/blob/main/src/images/thumbnail.png)
+![preview](https://github.com/hervezossou/mahmood-fazile/tree/main/src/assets/images)
 
 This project was built as a **frontend development exercise** to demonstrate design, integration, and portfolio crafting skills.
 
