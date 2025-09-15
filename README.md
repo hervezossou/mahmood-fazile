@@ -1,69 +1,40 @@
-# React + TypeScript + Vite
+# 🚀 Portfolio Website : Mahmood Fazile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Overview
 
-Currently, two official plugins are available:
+This is a portolio website introducing Mahmood Fazile, an UI/UX Design, his services and featured projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![preview](https://github.com/hervezossou/mahmood-fazile/blob/main/thumbnail.png)
 
-## Expanding the ESLint configuration
+This project was built as a **frontend development exercise** to demonstrate design, integration, and portfolio crafting skills.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## 🛠 Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+The project was developed using:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+- ⚛️ **React** – Component-based JavaScript library (bundled with Vite)
+- 🟦 **TypeScript** – Type safety and maintainable code
+- 🎨 **TailwindCSS** – Utility-first CSS framework for fast styling
+- 📦 **pnpm** – Fast and efficient package manager
+- ✅ **ESLint** – Linting for best coding practices
+- 🎯 **Prettier** – Code formatting for consistency
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+## 🌍 Live Demo
 
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+👉 [View Live Demo](https://mahmood-fazile.vercel.app/)  
+👉 [Access the Design File](https://www.figma.com/design/WkvvRNFQkAWVnO8SmU0V91/Personal-website-%7C-Portfolio--Community-?node-id=587-638&t=okan2X1x7KVyr7f8-1)
+
+---
+
+## 🤝 Let’s Connect
+
+Need a portfolio to showcase **your skills** and your work speak for you ?  
+I’d love to help you design and build it.
+
+- 📧 Email: [contacthervenz@gmail.com](mailto:contacthervenz@gmail.com)
+- 💼 LinkedIn: [Hervé Zossou](https://linkedin.com/in/hervezossou)
+- 🐦 Twitter: [@iamhervenz](https://twitter.com/@iamhervenz)
