@@ -33,16 +33,16 @@ export const WorkSection = () => {
             </div>
             <div
                 ref={parent}
-                className="w-full flex flex-nowrap items-center gap-4 overflow-x-auto pb-2 transition-all ease-in-out duration-500 md:overflow-visible md:grid md:grid-cols-2 xl:grid-cols-3 xl:px-20 xl:gap-x-auto xl:gap-y-6"
+                className="w-full flex flex-nowrap items-center gap-4 overflow-x-auto pb-2 transition-all ease-in-out duration-500 xl:overflow-visible xl:grid xl:grid-cols-3 xl:gap-x-auto xl:gap-y-6"
             >
                 {selectedCategory === "all"
                     ? fakedProjects.map((project) => (
-                        <div key={`${project.name}-${project.category.id}`} className="snap-start shrink-0 md:shrink">
+                        <div key={`${project.name}-${project.category.id}`} className="snap-start shrink-0 xl:shrink">
                             <ProjectCard project={project} />
                         </div>
                     ))
                     : filteredProject.map((project) => (
-                        <div key={`${project.name}-${project.category.id}`} className="snap-start shrink-0 md:shrink">
+                        <div key={`${project.name}-${project.category.id}`} className="snap-start shrink-0 xl:shrink">
                             <ProjectCard project={project} />
                         </div>
                     ))}

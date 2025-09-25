@@ -6,7 +6,7 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
     return (
-        <div className="w-full flex flex-col items-start transition-transform ease-in-out duration-300 hover:scale-105 lg:w-[415px]">
+        <div className="w-full max-w-[415px] flex flex-col items-start transition-transform ease-in-out duration-300 hover:scale-105 lg:w-[415px]">
             <div
                 className="max-w-[415px] rounded-t-[28px]"
                 style={{
