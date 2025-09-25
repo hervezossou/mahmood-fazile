@@ -39,8 +39,7 @@ export const HeroSection = () => {
                     {expertise.map((item, index) => (
                         <ExpertiseCard
                             key={index}
-                            value={item.value}
-                            label={item.label}
+                            expertise={item}
                             hasBorder={index < expertise.length - 1}
                         />
                     ))}
