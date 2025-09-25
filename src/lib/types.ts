@@ -6,6 +6,7 @@ export interface NavLink {
 export type ButtonVariant = "contained" | "outlined";
 
 export type Service = {
+  id: string;
   icon: string;
   name: string;
   description: string;
