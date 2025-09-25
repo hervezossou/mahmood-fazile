@@ -1,6 +1,7 @@
 import type { CategoryItem } from "./types";
 import type { Expertise } from "./types";
 import type { Skill } from "./types";
+import type { Service } from "./types";
 
 export const navItems = [
   {
@@ -62,7 +63,7 @@ export const skills: Skill[] = [
   },
 ];
 
-export const services = [
+export const services: Service[] = [
   {
     id: "app-design",
     name: "App Design",
