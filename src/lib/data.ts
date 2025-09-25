@@ -151,6 +151,14 @@ export const categories: CategoryItem[] = [
 
 export const fakedProjects: Project[] = [
   {
+    image: imageThree,
+    name: "QuickBite",
+    category: {
+      id: "app-mobile-design",
+      name: "App Mobile Design",
+    },
+  },
+  {
     image: imageOne,
     name: "TechNova",
     category: {
@@ -167,11 +175,11 @@ export const fakedProjects: Project[] = [
     },
   },
   {
-    image: imageThree,
-    name: "FinancePro",
+    image: imageTwo,
+    name: "CloudSync SaaS",
     category: {
-      id: "app-desktop",
-      name: "App Desktop",
+      id: "website-design",
+      name: "Website Design",
     },
   },
   {
@@ -183,19 +191,11 @@ export const fakedProjects: Project[] = [
     },
   },
   {
-    image: imageTwo,
-    name: "CloudSync SaaS",
+    image: imageThree,
+    name: "PixelCraft Agency",
     category: {
       id: "website-design",
       name: "Website Design",
-    },
-  },
-  {
-    image: imageThree,
-    name: "QuickBite",
-    category: {
-      id: "app-mobile-design",
-      name: "App Mobile Design",
     },
   },
   {
@@ -216,10 +216,10 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageThree,
-    name: "PixelCraft Agency",
+    name: "FinancePro",
     category: {
-      id: "website-design",
-      name: "Website Design",
+      id: "app-desktop",
+      name: "App Desktop",
     },
   },
 ];
