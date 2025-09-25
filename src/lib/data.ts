@@ -1,4 +1,5 @@
 import type { CategoryItem } from "./types";
+import type { Expertise } from "./types";
 
 export const navItems = [
   {
@@ -103,7 +104,7 @@ export const services = [
   },
 ];
 
-export const expertise = [
+export const expertise: Expertise[] = [
   {
     value: "5+",
     label: "Experiences",
