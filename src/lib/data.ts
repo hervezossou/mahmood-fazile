@@ -1,5 +1,6 @@
 import type { CategoryItem } from "./types";
 import type { Expertise } from "./types";
+import type { Skill } from "./types";
 
 export const navItems = [
   {
@@ -33,7 +34,7 @@ export const serviceOptions = [
   { value: "design-systems", label: "Design Systems" },
 ];
 
-export const skills = [
+export const skills: Skill[] = [
   {
     icon: "basil:figma-outline",
     name: "Figma",
