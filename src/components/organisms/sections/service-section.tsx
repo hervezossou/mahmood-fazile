@@ -16,9 +16,7 @@ export const ServicesSection = () => {
                 {services.map((service) => (
                     <ServiceCard
                         key={service.id}
-                        name={service.name}
-                        icon={service.icon}
-                        description={service.description}
+                        service={service}
                     />
                 ))}
             </div>
