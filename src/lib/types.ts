@@ -36,3 +36,9 @@ export type CategoryItem = {
   id: PortfolioCategory;
   name: string;
 };
+
+export type Project = {
+  image: string;
+  name: string;
+  category: CategoryItem;
+};
