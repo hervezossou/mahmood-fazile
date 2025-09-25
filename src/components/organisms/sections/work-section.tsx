@@ -1,9 +1,15 @@
 import { useState } from "react"
+import { useAutoAnimate } from "@formkit/auto-animate/react"
 import { CategorySelector } from "@/components/atoms/category-selector";
 import { categories } from "@/lib/data";
+import { fakedProjects } from "@/lib/data";
+import { ProjectCard } from "@/components/molecules/project-card";
 
 export const WorkSection = () => {
     const [selectedCategory, setSelectedCategory] = useState("all");
+    const [parent] = useAutoAnimate();
+
+    const filteredProject = fakedProjects.filter((project) => project.category.id === selectedCategory);
 
     return (
         <section
@@ -25,7 +31,15 @@ export const WorkSection = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex items-center justify-between xl:px-20 xl:gap-6"></div>
+            <div ref={parent} className="w-full grid grid-cols-1 gap-4 justify-between transition-all ease-in-out duration-500 md:grid-cols-2 xl:grid-cols-3 xl:gap-x-auto xl:gap-y-6">
+                {selectedCategory === "all"
+                    ? fakedProjects.map((project) => (
+                        <ProjectCard key={`${project.name}-${project.category.id}`} project={project} />
+                    ))
+                    : filteredProject.map((project) => (
+                        <ProjectCard key={`${project.name}-${project.category.id}`} project={project} />
+                    ))}
+            </div>
         </section>
     )
 }
