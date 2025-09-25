@@ -1,3 +1,5 @@
+import type { CategoryItem } from "./types";
+
 export const navItems = [
   {
     label: "Home",
@@ -113,5 +115,28 @@ export const expertise = [
   {
     value: "80+",
     label: "Happy Clients",
+  },
+];
+
+export const categories: CategoryItem[] = [
+  {
+    id: "all",
+    name: "All",
+  },
+  {
+    id: "website-design",
+    name: "Website Design",
+  },
+  {
+    id: "app-mobile-design",
+    name: "App Mobile Design",
+  },
+  {
+    id: "app-desktop",
+    name: "App Desktop",
+  },
+  {
+    id: "branding",
+    name: "Branding",
   },
 ];
