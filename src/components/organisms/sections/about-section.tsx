@@ -45,7 +45,10 @@ export const AboutSection = () => {
             </div>
             <div className="w-full flex flex-wrap items-center justify-center gap-10 lg:justify-between lg:gap-auto">
                 {skills.map((skill) => (
-                    <SkillCard key={skill.name} icon={skill.icon} name={skill.name} percentage={skill.percentage} />
+                    <SkillCard
+                        key={skill.name}
+                        skill={skill}
+                    />
                 ))}
             </div>
         </section>
