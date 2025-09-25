@@ -14,7 +14,7 @@ export const WorkSection = () => {
     return (
         <section
             id="portfolio"
-            className="w-full flex flex-col items-center gap-10 lg:gap-12.5"
+            className="w-full flex flex-col items-center justify-center gap-10 lg:gap-12.5"
         >
             <div className="flex flex-col items-center gap-4.5 lg:gap-10">
                 <h2 className="font-bold text-2xl lg:text-[40px] text-fondation-white-light text-center tracking-[1.2px]">
@@ -31,13 +31,20 @@ export const WorkSection = () => {
                     ))}
                 </div>
             </div>
-            <div ref={parent} className="w-full grid grid-cols-1 gap-4 justify-between transition-all ease-in-out duration-500 md:grid-cols-2 xl:grid-cols-3 xl:gap-x-auto xl:gap-y-6">
+            <div
+                ref={parent}
+                className="w-full flex flex-nowrap items-center gap-4 overflow-x-auto pb-2 transition-all ease-in-out duration-500 md:overflow-visible md:grid md:grid-cols-2 xl:grid-cols-3 xl:px-20 xl:gap-x-auto xl:gap-y-6"
+            >
                 {selectedCategory === "all"
                     ? fakedProjects.map((project) => (
-                        <ProjectCard key={`${project.name}-${project.category.id}`} project={project} />
+                        <div key={`${project.name}-${project.category.id}`} className="snap-start shrink-0 md:shrink">
+                            <ProjectCard project={project} />
+                        </div>
                     ))
                     : filteredProject.map((project) => (
-                        <ProjectCard key={`${project.name}-${project.category.id}`} project={project} />
+                        <div key={`${project.name}-${project.category.id}`} className="snap-start shrink-0 md:shrink">
+                            <ProjectCard project={project} />
+                        </div>
                     ))}
             </div>
         </section>
