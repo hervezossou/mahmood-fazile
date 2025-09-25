@@ -1,30 +1,8 @@
 import { useState } from "react"
 import { CategorySelector } from "@/components/atoms/category-selector";
+import { categories } from "@/lib/data";
 
 export const WorkSection = () => {
-
-    const categories = [
-        {
-            id: "all",
-            name: "All"
-        },
-        {
-            id: "website-design",
-            name: "Website Design"
-        },
-        {
-            id: "app-mobile-design",
-            name: "App Mobile Design"
-        },
-        {
-            id: "app-desktop",
-            name: "App Desktop"
-        },
-        {
-            id: "branding",
-            name: "Branding"
-        }
-    ]
     const [selectedCategory, setSelectedCategory] = useState("all");
 
     return (
