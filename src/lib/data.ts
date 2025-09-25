@@ -152,7 +152,7 @@ export const categories: CategoryItem[] = [
 export const fakedProjects: Project[] = [
   {
     image: imageThree,
-    name: "QuickBite",
+    name: "QuickBite Food Delivery",
     category: {
       id: "app-mobile-design",
       name: "App Mobile Design",
@@ -160,7 +160,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageOne,
-    name: "TechNova",
+    name: "TechNova Portfolio Website",
     category: {
       id: "website-design",
       name: "Website Design",
@@ -168,7 +168,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageTwo,
-    name: "ShopEase",
+    name: "ShopEase Mobile App",
     category: {
       id: "app-mobile-design",
       name: "App Mobile Design",
@@ -176,7 +176,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageTwo,
-    name: "CloudSync SaaS",
+    name: "CloudSync SaaS Website",
     category: {
       id: "website-design",
       name: "Website Design",
@@ -184,7 +184,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageOne,
-    name: "GreenLeaf",
+    name: "GreenLeaf Branding",
     category: {
       id: "branding",
       name: "Branding",
@@ -192,7 +192,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageThree,
-    name: "PixelCraft Agency",
+    name: "PixelCraft Agency Website",
     category: {
       id: "website-design",
       name: "Website Design",
@@ -200,7 +200,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageOne,
-    name: "Aurora Player",
+    name: "Aurora Player App",
     category: {
       id: "app-desktop",
       name: "App Desktop",
@@ -208,7 +208,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageTwo,
-    name: "Lumi Studio",
+    name: "Lumi Studio Branding",
     category: {
       id: "branding",
       name: "Branding",
@@ -216,7 +216,7 @@ export const fakedProjects: Project[] = [
   },
   {
     image: imageThree,
-    name: "FinancePro",
+    name: "FinancePro App",
     category: {
       id: "app-desktop",
       name: "App Desktop",
