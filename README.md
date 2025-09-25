@@ -4,7 +4,7 @@
 
 This is a portolio website introducing Mahmood Fazile, an UI/UX Design, his services and featured projects.
 
-![preview](https://github.com/hervezossou/mahmood-fazile/tree/main/src/assets/images)
+![preview](https://github.com/hervezossou/mahmood-fazile/blob/main/src/assets/images/thumbnail.png)
 
 This project was built as a **frontend development exercise** to demonstrate design, integration, and portfolio crafting skills.
 
@@ -32,7 +32,7 @@ The project was developed using:
 
 ## 🤝 Let’s Connect
 
-Need a portfolio to showcase **your skills** and your work speak for you ?  
+Need a portfolio to showcase **your skills** and let your work speak for you ?  
 I’d love to help you design and build it.
 
 - 📧 Email: [contacthervenz@gmail.com](mailto:contacthervenz@gmail.com)
