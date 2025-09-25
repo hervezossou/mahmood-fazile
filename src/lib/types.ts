@@ -22,7 +22,6 @@ export type Skill = {
 export type Expertise = {
   value: string;
   label: string;
-  hasBorder: boolean;
 };
 
 export type PortfolioCategory =
