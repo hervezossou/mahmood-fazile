@@ -1,16 +1,14 @@
 import { Icon } from '@iconify/react';
 import clsx from 'clsx';
+import type { Skill } from '@/lib/types';
 
 interface SkillCardProps {
-    icon: string;
-    name: string;
-    percentage: number;
-    className?: string;
+    skill: Skill;
 }
 
-const SkillCard = ({ icon, name, percentage, className }: SkillCardProps) => {
+const SkillCard = ({ skill }: SkillCardProps) => {
     // Normaliser le pourcentage entre 0 et 100
-    const normalizedPercentage = Math.min(Math.max(percentage, 0), 100);
+    const normalizedPercentage = Math.min(Math.max(skill.percentage, 0), 100);
 
     // Paramètres du cercle
     const radius = 60; // rayon
@@ -18,7 +16,7 @@ const SkillCard = ({ icon, name, percentage, className }: SkillCardProps) => {
     const offset = circumference - (normalizedPercentage / 100) * circumference;
 
     return (
-        <div className={clsx('flex flex-col items-center gap-4', className)}>
+        <div className={clsx('flex flex-col items-center gap-4', skill.className)}>
             {/* Gray Circle progression */}
             <div className="relative w-[131px] h-[130px]">
                 <svg width="131" height="130" className="absolute inset-0 rotate-90">
@@ -56,13 +54,13 @@ const SkillCard = ({ icon, name, percentage, className }: SkillCardProps) => {
 
                 {/* Centered Icon */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                    <Icon icon={icon} width={60} height={60} className="text-fondation-white-dark-hover" />
+                    <Icon icon={skill.icon} width={60} height={60} className="text-fondation-white-dark-hover" />
                 </div>
             </div>
             {/* Texte (pourcentage et nom) */}
             <div className="flex flex-col items-center gap-1">
                 <span className="text-lg font-bold text-gradint lg:text-3xl">{normalizedPercentage}%</span>
-                <span className="font-bold text-lg text-fondation-white-dark-hover lg:text-2xl">{name}</span>
+                <span className="font-bold text-lg text-fondation-white-dark-hover lg:text-2xl">{skill.name}</span>
             </div>
         </div>
     );
