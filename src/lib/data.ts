@@ -2,6 +2,11 @@ import type { CategoryItem } from "./types";
 import type { Expertise } from "./types";
 import type { Skill } from "./types";
 import type { Service } from "./types";
+import type { Project } from "./types";
+
+import imageOne from "@/assets/images/image-one.png";
+import imageTwo from "@/assets/images/image-two.png";
+import imageThree from "@/assets/images/image-three.png";
 
 export const navItems = [
   {
@@ -141,5 +146,80 @@ export const categories: CategoryItem[] = [
   {
     id: "branding",
     name: "Branding",
+  },
+];
+
+export const fakedProjects: Project[] = [
+  {
+    image: imageOne,
+    name: "TechNova",
+    category: {
+      id: "website-design",
+      name: "Website Design",
+    },
+  },
+  {
+    image: imageTwo,
+    name: "ShopEase",
+    category: {
+      id: "app-mobile-design",
+      name: "App Mobile Design",
+    },
+  },
+  {
+    image: imageThree,
+    name: "FinancePro",
+    category: {
+      id: "app-desktop",
+      name: "App Desktop",
+    },
+  },
+  {
+    image: imageOne,
+    name: "GreenLeaf",
+    category: {
+      id: "branding",
+      name: "Branding",
+    },
+  },
+  {
+    image: imageTwo,
+    name: "CloudSync SaaS",
+    category: {
+      id: "website-design",
+      name: "Website Design",
+    },
+  },
+  {
+    image: imageThree,
+    name: "QuickBite",
+    category: {
+      id: "app-mobile-design",
+      name: "App Mobile Design",
+    },
+  },
+  {
+    image: imageOne,
+    name: "Aurora Player",
+    category: {
+      id: "app-desktop",
+      name: "App Desktop",
+    },
+  },
+  {
+    image: imageTwo,
+    name: "Lumi Studio",
+    category: {
+      id: "branding",
+      name: "Branding",
+    },
+  },
+  {
+    image: imageThree,
+    name: "PixelCraft Agency",
+    category: {
+      id: "website-design",
+      name: "Website Design",
+    },
   },
 ];
