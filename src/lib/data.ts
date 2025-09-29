@@ -113,15 +113,15 @@ export const services: Service[] = [
 
 export const expertise: Expertise[] = [
   {
-    value: "5+",
+    value: 5,
     label: "Experiences",
   },
   {
-    value: "20+",
+    value: 20,
     label: "Projects done",
   },
   {
-    value: "80+",
+    value: 80,
     label: "Happy Clients",
   },
 ];

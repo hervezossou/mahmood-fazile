@@ -21,7 +21,7 @@ export type Skill = {
 };
 
 export type Expertise = {
-  value: string;
+  value: number;
   label: string;
 };
 
